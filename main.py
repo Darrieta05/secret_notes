@@ -1,5 +1,4 @@
 import rsa
-import psycopg2
 
 import note
 import encrypter
