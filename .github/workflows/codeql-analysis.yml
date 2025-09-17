@@ -16,6 +16,9 @@ on:
     branches: [ "main", "dev" ]
   pull_request:
     branches: [ "main"]
+    paths-ignore:
+      - '**/*.md'
+      - '**/*.txt'
   schedule:
     - cron: '40 6 * * 2'
 
